@@ -13,7 +13,7 @@
 # limitations under the License.
 load("@rules_kotlin//kotlin:jvm.bzl", "kt_jvm_binary", "kt_jvm_library")
 
-kt_jvm_binary(
+kt_jvm_binary (
     name = "maintenance",
     srcs = glob(["maintenance.kt"]),
     main_class = "MaintenanceKt",
